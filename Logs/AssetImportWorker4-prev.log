@@ -1,37 +1,37 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-04-23T18:13:49.369507Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenic" at "2026-05-11T05:10:07.970677Z"
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 48768 MB
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 16310 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-23T18:13:49Z
+Date: 2026-05-11T05:10:07Z
 
 COMMAND LINE ARGUMENTS:
-G:\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker4
 -projectPath
-G:/Unity/Documents/Chaos Tower
+C:/Users/kenic/Documents/GitHub/Chaos-Tower-dud/Chaos-Tower-dud
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-57940
+59422
 -licensingIpc
-LicenseClient-Administrator
+LicenseClient-kenic
 -job-worker-count
-9
+5
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: G:/Unity/Documents/Chaos Tower
-G:/Unity/Documents/Chaos Tower
+Successfully changed project path to: C:/Users/kenic/Documents/GitHub/Chaos-Tower-dud/Chaos-Tower-dud
+C:/Users/kenic/Documents/GitHub/Chaos-Tower-dud/Chaos-Tower-dud
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,15 +67,13 @@ G:/Unity/Documents/Chaos Tower
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [55100]  Target information:
+Player connection [8352]  Target information:
 
-Player connection [55100]  * "[IP] 172.24.64.1 [Port] 0 [Flags] 2 [Guid] 2675661297 [EditorId] 2675661297 [Version] 1048832 [Id] WindowsEditor(7,EmiR-ROG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8352]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 3860478998 [EditorId] 3860478998 [Version] 1048832 [Id] WindowsEditor(7,KenichiPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [55100]  * "[IP] 192.168.100.166 [Port] 0 [Flags] 2 [Guid] 2675661297 [EditorId] 2675661297 [Version] 1048832 [Id] WindowsEditor(7,EmiR-ROG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [55100] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [55100] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [8352] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8352] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -86,85 +84,81 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              377fb265f9c74e88a995f952aa9113a9
-  Correlation Id:          71bdd3ab146afd73a4bbce69af689da3
-  External correlation Id: 1477124880799594225
-  Machine Id:              e3eDy6pX+lII8oSO1wLUlCkzlSs=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator" (connect: 0.00s, validation: 0.01s, handshake: 1.84s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-notifications" at "2026-04-23T18:13:51.2322164Z"
-[Licensing::Module] Licensing Background thread has ended after 1.86s
-[Licensing::Module] Licensing is initialized (took 0.84s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 4634984-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
-[Subsystems] Discovering subsystems at path G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/Unity/Documents/Chaos Tower/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kenic/Documents/GitHub/Chaos-Tower-dud/Chaos-Tower-dud/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
-    Vendor:   NVIDIA
-    VRAM:     7956 MB
-    Driver:   32.0.15.9579
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8150 MB
+    Driver:   32.0.21043.7012
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/ClusterDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Initialize mono
-Mono path[0] = 'G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
-Register platform support module: G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Register platform support module: G:/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.009105 seconds.
-- Loaded All Assemblies, in  0.872 seconds
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 670 ms
-Native extension for UWP target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002831 seconds.
+- Loaded All Assemblies, in  0.785 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.550 seconds
-Domain Reload Profiling: 2421ms
-	BeginReloadAssembly (312ms)
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2102ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (354ms)
-		LoadAssemblies (313ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (344ms)
-			TypeCache.Refresh (340ms)
-				TypeCache.ScanAssembly (310ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (332ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1550ms)
+	FinalizeReload (1320ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1454ms)
+		SetupLoadedEditorAssemblies (1224ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (849ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			InitializePlatformSupportModulesInManaged (98ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (533ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -176,16 +170,33 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              e231f416656d43a8a75245bf3f6af988
+  Correlation Id:          720bcdc24e6dc7d06f701873b046489e
+  External correlation Id: 9210067200118919933
+  Machine Id:              FlRB7gT6tI5llBY/k4R3uhYyhzw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kenic" (connect: 0.00s, validation: 0.00s, handshake: 5.56s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kenic-notifications" at "2026-05-11T05:10:13.5315201Z"
+[Licensing::Module] Licensing Background thread has ended after 5.56s
+[Licensing::Module] Licensing is initialized (took 2.12s).
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.488 seconds
+[Licensing::Module] License group:
+  Id: 4674152843019-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.569 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -196,416 +207,1478 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.678 seconds
-Domain Reload Profiling: 3165ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  1.143 seconds
+Domain Reload Profiling: 4703ms
+	BeginReloadAssembly (2385ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (998ms)
-		LoadAssemblies (679ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1016ms)
+		LoadAssemblies (693ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (487ms)
-			TypeCache.Refresh (356ms)
-				TypeCache.ScanAssembly (324ms)
-			BuildScriptInfoCaches (105ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1678ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (266ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1144ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1277ms)
+		SetupLoadedEditorAssemblies (846ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (270ms)
-			ProcessInitializeOnLoadAttributes (845ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (489ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6620 unused Assets / (3.0 MB). Loaded Objects now: 7436.
-Memory consumption went from 148.2 MB to 145.2 MB.
-Total: 28.700100 ms (FindLiveObjects: 1.916300 ms CreateObjectMapping: 1.013300 ms MarkObjects: 20.098200 ms  DeleteObjects: 5.669500 ms)
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6620 unused Assets / (2.1 MB). Loaded Objects now: 7432.
+Memory consumption went from 149.2 MB to 147.1 MB.
+Total: 21.806600 ms (FindLiveObjects: 4.533500 ms CreateObjectMapping: 1.845700 ms MarkObjects: 9.979800 ms  DeleteObjects: 5.445700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13840.482880 seconds.
-  path: Assets/Texture/logo.png
-  artifactKey: Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/logo.png using Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ccab3853bb293ea0611a80552a68e4') in 0.271034 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Texture/chaos_tower_bg1.png
-  artifactKey: Guid(2fcf063fb77cd6640979a977b82e62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/chaos_tower_bg1.png using Guid(2fcf063fb77cd6640979a977b82e62ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6cfc5fd2b4eeb1367ce1b11ce5528e1') in 0.225107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Texture/chaos_tower_name.png
-  artifactKey: Guid(f16ccff1813328c499d0b35059ac438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/chaos_tower_name.png using Guid(f16ccff1813328c499d0b35059ac438f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e116dc3eed52c6f8e0181fdcc121821') in 0.1021001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.013490 seconds.
-  path: Assets/Texture/logo.png
-  artifactKey: Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/logo.png using Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3de1dff80a2ddd81e931c219b37b6aa1') in 0.0501388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1131.583056 seconds.
-  path: Assets/Texture/logo.png
-  artifactKey: Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/logo.png using Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77b55a646b02a08c8a9cce5e2fe12dee') in 0.1097598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.635857 seconds.
-  path: Assets/Texture/logo.png
-  artifactKey: Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture/logo.png using Guid(e4ec982bf5164f549ad01b233add005a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b83dd771a1a584fdd19c6c87eb9d5cd2') in 0.0940206 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.537567 seconds.
-  path: Assets/Prefabs/Imported/Rock/textures/_0.png
-  artifactKey: Guid(901db160baeed8642a171f53e5527a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Rock/textures/_0.png using Guid(901db160baeed8642a171f53e5527a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0769cf734a95f2ebeb8c65e4c4be45') in 0.0742244 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Prefabs/Imported/Rock/textures/_2.png
-  artifactKey: Guid(527fe26f5ec4da44898a050662d69619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Rock/textures/_2.png using Guid(527fe26f5ec4da44898a050662d69619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eedf509c2587e7171771d49831b3b9f') in 0.1616347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn5_baseColor_8.png
-  artifactKey: Guid(ee063d66b82795d4690a1787f1bae219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn5_baseColor_8.png using Guid(ee063d66b82795d4690a1787f1bae219) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a936f016cba2be6b14771c2b7fcccd0') in 0.0791178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefabs/Imported/Rock/textures/_1.png
-  artifactKey: Guid(cd757d7ae5398d748a7dbb06014b671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Rock/textures/_1.png using Guid(cd757d7ae5398d748a7dbb06014b671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b94457b0c4a7437481ce5e48bed9fa61') in 0.0697606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
-  artifactKey: Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(3a639720a92414f45b72b16d6db788ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e71a1bf0a2a457b4751a1a6786cff40') in 0.0649004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
-  artifactKey: Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4def082f456828b9fd9342745f964992') in 0.0736315 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3_metal.png
-  artifactKey: Guid(b47a368e1797b3849b4639ece3d7093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3_metal.png using Guid(b47a368e1797b3849b4639ece3d7093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2e67400c6a2ab2b418703cd91a6d6ee') in 0.1701327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn3_baseColor_2.png
-  artifactKey: Guid(502c3a8714133364e995268808985022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn3_baseColor_2.png using Guid(502c3a8714133364e995268808985022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c4e222bb2c4e52fabe2ea1ed8c473cd') in 0.0701508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn4_baseColor_5.png
-  artifactKey: Guid(2dc69c5289c1c28409ecc41c2cb94b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn4_baseColor_5.png using Guid(2dc69c5289c1c28409ecc41c2cb94b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee29d0bf9c1406ee0b755da110536c9') in 0.0749783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 301664.185548 seconds.
+  path: Assets/Scripts/InstanceAutoLightController.cs
+  artifactKey: Guid(eb51934bc8373874693229d61f51fbf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/InstanceAutoLightController.cs using Guid(eb51934bc8373874693229d61f51fbf5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f30217cc95361d3a884cb51e2cd59d9') in 0.1722874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png
-  artifactKey: Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.png using Guid(c8f21f62fdb3e43c5b32917c84683698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1e6b3531c3e5135e1c518dbfc3330e3') in 1.074442 seconds
+  path: Assets/Texture/close.png
+  artifactKey: Guid(6963b3735a6e42043b4b84b78e5d1f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/close.png using Guid(6963b3735a6e42043b4b84b78e5d1f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e8342054549e259d5c83f3bf4bc1f64') in 0.081651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sound/bricks menu.mp3
+  artifactKey: Guid(7506fed686671d24f8c94aed7c4a73ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sound/bricks menu.mp3 using Guid(7506fed686671d24f8c94aed7c4a73ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a72340473a85c8ae668eabcab11ec4a') in 0.0411839 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn3_normal_4.png
-  artifactKey: Guid(fb01377f81ba8c94c829ab0d1d412d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn3_normal_4.png using Guid(fb01377f81ba8c94c829ab0d1d412d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f05e52ee18a196e3e04f285f68beebe') in 0.0755612 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Block7.prefab
+  artifactKey: Guid(b1a5a801a46315f4186826ab57f87956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Block7.prefab using Guid(b1a5a801a46315f4186826ab57f87956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c55200697c67c5c8a13ec0f6c455aaa') in 0.0865343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat
+  artifactKey: Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat using Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a7274e298d7f4dea39eb94c9c20843e') in 0.0712393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Msterials/BlockPhysics.physicMaterial
+  artifactKey: Guid(23f5b9b218b4ab840a0a45fb2c963d5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Msterials/BlockPhysics.physicMaterial using Guid(23f5b9b218b4ab840a0a45fb2c963d5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75eeb029eb1e2c113410c3f28e1032cd') in 0.0127631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Rock3.prefab
+  artifactKey: Guid(f5c9f2e87adca8343a43cee751906919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Rock3.prefab using Guid(f5c9f2e87adca8343a43cee751906919) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd94ad0a9339c067c27928e1d558054bd') in 0.0224116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold Night__Cam_3_Right-X.png
+  artifactKey: Guid(2b201733d2df84602b3020984df58790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Night/Cold Night__Cam_3_Right-X.png using Guid(2b201733d2df84602b3020984df58790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5ef2bd249590a139e79e04731fa022f') in 0.0156241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold Night__Cam_2_Left+X.png
+  artifactKey: Guid(3aa922ca8577f4f66b8810ab41310933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Night/Cold Night__Cam_2_Left+X.png using Guid(3aa922ca8577f4f66b8810ab41310933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ede8be39a33dfaa91fe179970f973c4') in 0.0170952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b129b628b4e3304e039c722bf448561e') in 0.0480791 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3.png
-  artifactKey: Guid(5c34768eca5a5d546b6f3ce45bcdff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3.png using Guid(5c34768eca5a5d546b6f3ce45bcdff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3a13f8d4d6efbca60f58bf0d478867') in 0.0898139 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04f71e16118688fa07e669fba15613db') in 0.0117093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold Night.unity
+  artifactKey: Guid(8c6f0d7d2a576443a92d35db4d83c4da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Night/Cold Night.unity using Guid(8c6f0d7d2a576443a92d35db4d83c4da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4f03f503af50b928c0a4ffad189e5d1') in 0.010613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cb062f03efb21f42a4fbaf5c4873c78') in 0.2006006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
+  artifactKey: Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png using Guid(33dc9d88f32144697ba9777ee1aaae7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1dac65c69fcb92c5efa6c09906e8a494') in 0.016049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_2_Left+X.png
+  artifactKey: Guid(c85a861fbad8f45169567bbfa332ecf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_2_Left+X.png using Guid(c85a861fbad8f45169567bbfa332ecf8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5ee28ff4159671766da88d76f3e1204') in 0.0206691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+  artifactKey: Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png using Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f636b887db0ef9a7d265b4d04413e83') in 0.0241949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat
+  artifactKey: Guid(fe4e130f9947345a2b213cb5038851a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink Equirect.mat using Guid(fe4e130f9947345a2b213cb5038851a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec053da30e0ec98ecabab261389dbb77') in 0.0294302 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn6_normal_13.png
-  artifactKey: Guid(9bea5f028cb271b46ab14f9a42feda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn6_normal_13.png using Guid(9bea5f028cb271b46ab14f9a42feda60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49dd787cf090d630933fbb04f26bb424') in 0.0824709 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png
+  artifactKey: Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png using Guid(cbdb0c81375e549b1bae3506c1863a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6447da9a67268087dc6a87d05136e064') in 0.0212039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat
+  artifactKey: Guid(51b74d7bad397457d883c5940f7664d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.mat using Guid(51b74d7bad397457d883c5940f7664d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70c0f58cc0d3028729d8263bc96b2020') in 0.0398456 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn8_baseColor_17.png
-  artifactKey: Guid(60197577a651fb94c86c7fd0e0c5b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn8_baseColor_17.png using Guid(60197577a651fb94c86c7fd0e0c5b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4268f22e3de202f2a708c8441689ea94') in 0.0982942 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_2_Left+X.png
+  artifactKey: Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk__Cam_2_Left+X.png using Guid(519e05b7b3cd14409b4a22d07660cfc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99c58a5a44ff6f9539c1d1cb71e9368e') in 0.0180286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Recovery/0.unity
+  artifactKey: Guid(d66c231b88f121f4d8b109c258e93496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery/0.unity using Guid(d66c231b88f121f4d8b109c258e93496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb8147bb62404bd766f758fd53069261') in 0.013067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AutoSetup_Resources/Gameplay.prefab
+  artifactKey: Guid(49e7ab814372ca34ea6287044badcd7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AutoSetup_Resources/Gameplay.prefab using Guid(49e7ab814372ca34ea6287044badcd7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '748e40a65f9b92e9fd92a042f2754f4e') in 0.0201303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AllSkyFree/_AllSkyFree_Documentation.pdf
+  artifactKey: Guid(f6f10bad0f589486893b6f1b8f9fdeb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFree_Documentation.pdf using Guid(f6f10bad0f589486893b6f1b8f9fdeb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85c4cafd7151c30b7c902345068fb3c3') in 0.0112168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat
+  artifactKey: Guid(c82a334cf5a5e47978749c210cee72a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk Equirect.mat using Guid(c82a334cf5a5e47978749c210cee72a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '411300e558e489f3670de40ea72468eb') in 0.038761 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
+  artifactKey: Guid(3a639720a92414f45b72b16d6db788ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(3a639720a92414f45b72b16d6db788ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '769ff8a94268a9f16ed2a99083fedc9f') in 0.0169965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
   path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
-  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc4474a5831c254c19feb6f2c70398d') in 0.0695139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn13_baseColor_33.png
-  artifactKey: Guid(b2f9a12ef970486469f67d031887800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn13_baseColor_33.png using Guid(b2f9a12ef970486469f67d031887800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584cf008f2886cb31b3c5b8e97c5332e') in 0.0876826 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_3_Right-X.png
-  artifactKey: Guid(938f8444195114ab791cdba8f627e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_3_Right-X.png using Guid(938f8444195114ab791cdba8f627e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37021086b922d7f5a93e3c3fada4015') in 0.074817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_0_Front+Z.png
-  artifactKey: Guid(87dff0577f22146db9255e2cf270d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_0_Front+Z.png using Guid(87dff0577f22146db9255e2cf270d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b11881b2c06f7a604b612ff442a3ca') in 0.0629727 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn7_baseColor_14.png
-  artifactKey: Guid(3ca4f947a0b409f449e08f7d4b28b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn7_baseColor_14.png using Guid(3ca4f947a0b409f449e08f7d4b28b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fcd341b4393091c60e4a4efbc5e5edb') in 0.0693238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Prefabs/Imported/Rock/textures/_1_metal.png
-  artifactKey: Guid(589ad1598d8c2fa4bb84bd0db2f69ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Rock/textures/_1_metal.png using Guid(589ad1598d8c2fa4bb84bd0db2f69ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc94ffffcb563307e9ca7b6535292bc3') in 0.0750013 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
-  artifactKey: Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png using Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de4cfc3662b7da4b2f110b23328b14fc') in 0.0576003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn9_baseColor_20.png
-  artifactKey: Guid(df6098f449c40cd4e9a7d782e67a0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn9_baseColor_20.png using Guid(df6098f449c40cd4e9a7d782e67a0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1f2ef599fd1dcf4f5488651e952b09') in 0.0899622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_2_Left+X.png
-  artifactKey: Guid(4b922104744dc4f5ab309b556a7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_2_Left+X.png using Guid(4b922104744dc4f5ab309b556a7677da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53a18555147f1fb1151dba8c85c16c78') in 0.0509531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_1_Back-Z.png
-  artifactKey: Guid(8e7251cff63ea413db367d2893f57bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_1_Back-Z.png using Guid(8e7251cff63ea413db367d2893f57bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd452bbaddf67b3cd6f039c0493594fb') in 0.0597872 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png
-  artifactKey: Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_0_Front+Z.png using Guid(402fe3aa91fba453f92dd3bbe820dbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa1412ae9b634e8d17f79f31be244ed1') in 0.0539629 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn11_baseColor_26.png
-  artifactKey: Guid(50af52e9703e1534fb65bff9e8cfdc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn11_baseColor_26.png using Guid(50af52e9703e1534fb65bff9e8cfdc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a44c3e46c998c7c7b07aba80c0c5eb3') in 0.0810535 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png
-  artifactKey: Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png using Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f96f891eb5418b61aa4197f154baee6') in 0.0510004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn6_metallicRoughness_12.png
-  artifactKey: Guid(5ea066f83e178ea4dab6b420b76dfdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn6_metallicRoughness_12.png using Guid(5ea066f83e178ea4dab6b420b76dfdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c180689592419b008655ea1d144006c') in 0.0615911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn14_baseColor_37.png
-  artifactKey: Guid(2265787793402214ab61747e0b1e7412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn14_baseColor_37.png using Guid(2265787793402214ab61747e0b1e7412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1d9bdf51e58eba83bde1914d9eb348c') in 0.078048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png
-  artifactKey: Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink_Cam_5_Down-Y.png using Guid(213ae241f43b44b3f961dd8739080120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdc0ae4eea610fd3c8764019d9505c49') in 0.0482122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.435043 seconds.
-  path: Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Equirect.png
-  artifactKey: Guid(d4c8dc343ae5d4673b7720ffdb1ddf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Sky_Day_BlueSky_Equirect.png using Guid(d4c8dc343ae5d4673b7720ffdb1ddf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1310a167b0a6e476ec84a735261eaa1') in 0.4513718 seconds
+  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de279bbc0ff95f46093cd129f3f2594a') in 0.0199323 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.912 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.012 seconds
-Domain Reload Profiling: 1929ms
-	BeginReloadAssembly (265ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (530ms)
-		LoadAssemblies (401ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (207ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1013ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (795ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (152ms)
-			ProcessInitializeOnLoadAttributes (545ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6616 unused Assets / (4.3 MB). Loaded Objects now: 7517.
-Memory consumption went from 164.0 MB to 159.7 MB.
-Total: 34.353100 ms (FindLiveObjects: 3.302400 ms CreateObjectMapping: 1.998300 ms MarkObjects: 18.607600 ms  DeleteObjects: 10.439800 ms)
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Gameplay/Block.cs
+  artifactKey: Guid(338bc88877a439f4e9650ecc5e257a39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Gameplay/Block.cs using Guid(338bc88877a439f4e9650ecc5e257a39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0b77a86c80dfb26fdc89648f9c9b366') in 0.0114548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (1.7 MB). Loaded Objects now: 7517.
-Memory consumption went from 159.2 MB to 157.5 MB.
-Total: 8.684200 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.238300 ms MarkObjects: 7.696600 ms  DeleteObjects: 0.377100 ms)
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Auto-Scene/LightingData.asset
+  artifactKey: Guid(cfaeaefdf6997ef468d41ee5e50fdab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Auto-Scene/LightingData.asset using Guid(cfaeaefdf6997ef468d41ee5e50fdab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e97f0ded484e39d5cdc3c3dff757e80') in 0.0106732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat
+  artifactKey: Guid(55c04ce684cb542debc357409498bc4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AdditiveSprite.mat using Guid(55c04ce684cb542debc357409498bc4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5636f14d2c053ca3116f04d672ad0d5c') in 0.0119728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/GameScene/Global Volume Profile.asset
+  artifactKey: Guid(cb078eaf00a107c43bc949b09ebdc947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/GameScene/Global Volume Profile.asset using Guid(cb078eaf00a107c43bc949b09ebdc947) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4740e1185e525968a307a947977c1abb') in 0.0142735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Light.fbx
+  artifactKey: Guid(d9ad0f74d68824711bc800186cf63d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Light.fbx using Guid(d9ad0f74d68824711bc800186cf63d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '215879f988ff282d90e5c04c67ca86bd') in 0.0475888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_LowSettings.lighting
+  artifactKey: Guid(77b131decc7b844ddbe504ff94c11c56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_LowSettings.lighting using Guid(77b131decc7b844ddbe504ff94c11c56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1628c3e06398c793123f9559b43a131d') in 0.0213741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSkyFreeDemoEnvironment.prefab
+  artifactKey: Guid(e2402d4ef4fe747ae9ad59bdccad4556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSkyFreeDemoEnvironment.prefab using Guid(e2402d4ef4fe747ae9ad59bdccad4556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c5c4a2ce5ff97e2e32b573cfa770d82') in 0.0273092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx
+  artifactKey: Guid(e8f07670fb0274e35a65e6e98594a930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx using Guid(e8f07670fb0274e35a65e6e98594a930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '417556416043a9ca1928a754f96dcf23') in 0.0325911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png
+  artifactKey: Guid(6fa3f446deee84c52aec507bd0aca28c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png using Guid(6fa3f446deee84c52aec507bd0aca28c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a9ed93d095b16e147155211e9beda0d') in 0.0330647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold Night__Cam_5_Down-Y.png
+  artifactKey: Guid(8cab6aa3331da40e68754e2214ce08fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Night/Cold Night__Cam_5_Down-Y.png using Guid(8cab6aa3331da40e68754e2214ce08fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '251f03d0456d50657afcefd7e01508d7') in 0.0174547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sound/bulldozer.mp3
+  artifactKey: Guid(1d62cf4bed01590458040a879738f3b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sound/bulldozer.mp3 using Guid(1d62cf4bed01590458040a879738f3b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c0cf39237e94354b7ed8a7a9391e4f6') in 0.0364644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Texture/logo.png
+  artifactKey: Guid(e4ec982bf5164f549ad01b233add005a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/logo.png using Guid(e4ec982bf5164f549ad01b233add005a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53e5bd5d5b9ae8c820858893404b7869') in 0.0154546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat
+  artifactKey: Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat using Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f81373e9abf092aea49c0693aaf74784') in 0.0127797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs
+  artifactKey: Guid(9b284054d7da1d34ebc682ead5f6458c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs using Guid(9b284054d7da1d34ebc682ead5f6458c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb99ebf15a9a86bdcbbef9053ae64e6') in 0.0119936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat
+  artifactKey: Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat using Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f21c7e7878ccec76232a9e6bd29431c') in 0.0116064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/T2M/T2MSettings.cs
+  artifactKey: Guid(d712c1879dc3ae145bb3d02c41f701b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/T2M/T2MSettings.cs using Guid(d712c1879dc3ae145bb3d02c41f701b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b528da83f42deffcfcc1296b12acb2c') in 0.0110031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat
+  artifactKey: Guid(ff33c7fce672541f095331a057da80f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat using Guid(ff33c7fce672541f095331a057da80f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd413c3de4e5909d38c6e3cb6630b50e3') in 0.0121515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs
+  artifactKey: Guid(c746b0094f8b14040b9eda8f3d84bb28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs using Guid(c746b0094f8b14040b9eda8f3d84bb28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '050f5b7a3a9f52a6bee43a9c78340939') in 0.0096746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat
+  artifactKey: Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat using Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15ec4c2e2c396cdb8927c8bb654ccc49') in 0.0140565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cd79a4ed63fde38bdf02ee3586d1466') in 0.0121707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6488db4e4dbb61a57077333ba7eb08d4') in 0.0113985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '192ffcf60088568def452b0eeed451e0') in 0.025269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf1abacaa3e4476b58fc2387df6e89da') in 0.0122154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95bd8e438b51b41b6caff4487d588a28') in 0.0115542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf
+  artifactKey: Guid(55446a229435a7640b0f1980c8510a95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/TitilliumWeb-Semibold.ttf using Guid(55446a229435a7640b0f1980c8510a95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b22f77bdea31f436ec3a11fec5b0813') in 0.0188079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/materials/blinn15_13.mat
+  artifactKey: Guid(d42d80a66548384448fdc9c853d844bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/materials/blinn15_13.mat using Guid(d42d80a66548384448fdc9c853d844bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e260e90e3b2a4e8a2b6e5e04a481a311') in 0.0274924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png
+  artifactKey: Guid(4031f98ad4095c04e8a757b95f992c37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/defaultModel.png using Guid(4031f98ad4095c04e8a757b95f992c37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83e292223752c7dcf2cee50c8fd79ee5') in 0.0183303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs
+  artifactKey: Guid(d7eb441d9fb002a488dc11c2a74983f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs using Guid(d7eb441d9fb002a488dc11c2a74983f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef8a39fb43604b0110bff41e9614ce8f') in 0.0118952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs
+  artifactKey: Guid(58d9700938d11814c9905a03f7251519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs using Guid(58d9700938d11814c9905a03f7251519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22ec812e120e2402fa1702ed92e4d63c') in 0.0100324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/materials/blinn10_8.mat
+  artifactKey: Guid(d38c13da61c372c418125db43d6f420a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/materials/blinn10_8.mat using Guid(d38c13da61c372c418125db43d6f420a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '311f0659776f99d07cd9e421d131bd51') in 0.0264207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be27c289709d3b96c6583e8c9bbfa65b') in 0.027965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs
+  artifactKey: Guid(0937ab964c9d395469abadebf26865d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs using Guid(0937ab964c9d395469abadebf26865d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98e75a3cfbcb3fa503f576f03ed1fe3e') in 0.0111889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png
+  artifactKey: Guid(95b4dd33b780351478f0a4b9c10fe4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Dependencies/Resources/planEnt.png using Guid(95b4dd33b780351478f0a4b9c10fe4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59646266b96b83a709bf555c315863c7') in 0.0138022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/materials/blinn6_4.mat
+  artifactKey: Guid(024778d62d66cd1499b2df7f3d910b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/materials/blinn6_4.mat using Guid(024778d62d66cd1499b2df7f3d910b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a61d3c0e14ea6bb87065aaaa16241aa') in 0.0258644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2489_blinn13_0_415_0.asset
+  artifactKey: Guid(d3aedb93678941146bd9105ec07dec92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2489_blinn13_0_415_0.asset using Guid(d3aedb93678941146bd9105ec07dec92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '062b96fd046b340e407d2a6529d4f46c') in 0.0121666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2047_blinn12_0_397_0.asset
+  artifactKey: Guid(f7fc2cba9e4180f4eb5524c78340ffde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2047_blinn12_0_397_0.asset using Guid(f7fc2cba9e4180f4eb5524c78340ffde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b898ec1fbaa3ffc943e856c1e9fd4dee') in 0.0141676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2567_blinn13_0_419_0.asset
+  artifactKey: Guid(d1791834c32a90f49a6e8a2ff9ad04f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2567_blinn13_0_419_0.asset using Guid(d1791834c32a90f49a6e8a2ff9ad04f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71524fac0fce7e655b2142c3ef928973') in 0.0118062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/pCube28_blinn12_0_395_0.asset
+  artifactKey: Guid(bec5697052009dc4f9d9ded0e0f56be7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/pCube28_blinn12_0_395_0.asset using Guid(bec5697052009dc4f9d9ded0e0f56be7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1e8e3ef8c85f2f7659e82eb1c319f2c') in 0.0108834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2506_blinn13_0_429_0.asset
+  artifactKey: Guid(dbd75d24e130d8e4e8d3b3d87a4a5bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2506_blinn13_0_429_0.asset using Guid(dbd75d24e130d8e4e8d3b3d87a4a5bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bb6b77e6b0050766ab371b208427f55') in 0.0122689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/materials/blinn4_2.mat
+  artifactKey: Guid(48af41f6920519042827fe2b5ebc0716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/materials/blinn4_2.mat using Guid(48af41f6920519042827fe2b5ebc0716) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd36d39b67b6d43c4eb99afea0f6b837') in 0.0247615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2255_blinn14_0_431_0.asset
+  artifactKey: Guid(74487b9ea7c790540b3f62bdd7b8201b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2255_blinn14_0_431_0.asset using Guid(74487b9ea7c790540b3f62bdd7b8201b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37b447787c01925eba459b6cfa7615e7') in 0.0132854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2335_blinn13_0_404_0.asset
+  artifactKey: Guid(1a875fd3571eb7343962cc651e50890b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2335_blinn13_0_404_0.asset using Guid(1a875fd3571eb7343962cc651e50890b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '033d6463c6ed06323c4b4da2f199f256') in 0.0107033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat
+  artifactKey: Guid(39278937b8c4ada4493fe17a20f103d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat using Guid(39278937b8c4ada4493fe17a20f103d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34306dc0f364c39bf00ce94b19c16cf4') in 0.014031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs
+  artifactKey: Guid(e7772f65ab4914e419e1c2efa7539d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs using Guid(e7772f65ab4914e419e1c2efa7539d8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd3c7c2c8c9b755e66055107637a44ab') in 0.0096603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_2_Left+X.png
+  artifactKey: Guid(ce026dfecbc694085a1d87a22f3bb49d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset__Cam_2_Left+X.png using Guid(ce026dfecbc694085a1d87a22f3bb49d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51511f1e1ec2ca9d1f434ed5e10905ae') in 0.0174456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5201_blinn10_0_33_0.asset
+  artifactKey: Guid(028b877aa673c674f8f1df912cd2ed0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5201_blinn10_0_33_0.asset using Guid(028b877aa673c674f8f1df912cd2ed0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be015833590ec27c55896521e2fa5500') in 0.0122261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4093_blinn3_0_5_0.asset
+  artifactKey: Guid(4ddd5678617ef224e87452927ebe7de3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4093_blinn3_0_5_0.asset using Guid(4ddd5678617ef224e87452927ebe7de3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9122ac073251251c5316edb44768fce5') in 0.0110243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2595_blinn15_0_439_0.asset
+  artifactKey: Guid(fa02883b5b4cdec4ba8397ff36cacc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2595_blinn15_0_439_0.asset using Guid(fa02883b5b4cdec4ba8397ff36cacc95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c83a9bf293aa2df22de659215a1da68') in 0.0114196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4948_blinn10_0_32_0.asset
+  artifactKey: Guid(cc5452d9440650349bd4969558a0162c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4948_blinn10_0_32_0.asset using Guid(cc5452d9440650349bd4969558a0162c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fed38961bb22daa3f79b1a298c4dc63') in 0.0097787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5212_blinn11_0_378_0.asset
+  artifactKey: Guid(70e91868c488845449b317f6b4d8049c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5212_blinn11_0_378_0.asset using Guid(70e91868c488845449b317f6b4d8049c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1453b4b5a61c5be4d3a4011f11a5c179') in 0.0119962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4101_blinn6_0_10_0.asset
+  artifactKey: Guid(6f1d85e5068133b40971c47607c47af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface4101_blinn6_0_10_0.asset using Guid(6f1d85e5068133b40971c47607c47af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c74df0a3f375010d61661714dba58a6') in 0.0132287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2585_blinn13_0_407_0.asset
+  artifactKey: Guid(bc10b0223ba7acd4ea8b7817155cc8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2585_blinn13_0_407_0.asset using Guid(bc10b0223ba7acd4ea8b7817155cc8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f35547b4f78f3365f82788533347cd8d') in 0.0123138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2839_blinn13_0_417_0.asset
+  artifactKey: Guid(3565ffe0d54279b4392bdbdab5e48ae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface2839_blinn13_0_417_0.asset using Guid(3565ffe0d54279b4392bdbdab5e48ae0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49897cca021581541f98c560a1bd5a69') in 0.0121475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5267_blinn10_0_36_0.asset
+  artifactKey: Guid(6cff814ca8b08224a9146791f7b0f8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5267_blinn10_0_36_0.asset using Guid(6cff814ca8b08224a9146791f7b0f8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '715a43e6f203fda3ffbdf6b9f5aef1fa') in 0.011248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/pCube15_blinn7_0_13_0.asset
+  artifactKey: Guid(c0305b996ea0e9545ac2d2d9840a085a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/pCube15_blinn7_0_13_0.asset using Guid(c0305b996ea0e9545ac2d2d9840a085a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '669e5c567c45277b3671af307235ef86') in 0.0138482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6506_blinn11_0_80_0.asset
+  artifactKey: Guid(794f48b613ca90f45b171ffb1af66e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6506_blinn11_0_80_0.asset using Guid(794f48b613ca90f45b171ffb1af66e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c41b825efdaeac4639169cdc5db09820') in 0.0136376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6487_blinn11_0_61_0.asset
+  artifactKey: Guid(bc681631d0d632240835af704be17fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6487_blinn11_0_61_0.asset using Guid(bc681631d0d632240835af704be17fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80982c860566d5532425972aee26615a') in 0.0117712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6471_blinn11_0_45_0.asset
+  artifactKey: Guid(241bc64a7e598b040abaf272540af9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6471_blinn11_0_45_0.asset using Guid(241bc64a7e598b040abaf272540af9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a4735fdf4749e0f0cd8b311fe00565e') in 0.011723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface556_blinn14_0_434_0.asset
+  artifactKey: Guid(c3f9748229c674b4d912b1144c805574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface556_blinn14_0_434_0.asset using Guid(c3f9748229c674b4d912b1144c805574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e8fadd8972ca4f65c3907bd00dafbc') in 0.0102536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6498_blinn11_0_72_0.asset
+  artifactKey: Guid(0d490d95c6cde2646ac45fc1298232a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6498_blinn11_0_72_0.asset using Guid(0d490d95c6cde2646ac45fc1298232a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e77995bf8070a4c47ad647478a070dad') in 0.0100293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface571_phong1_0_1_0.asset
+  artifactKey: Guid(fa64cb77369acf9468851712026b26f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface571_phong1_0_1_0.asset using Guid(fa64cb77369acf9468851712026b26f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b3749bce0c846ab73c355bb3a5a8cfa') in 0.0113868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6477_blinn11_0_51_0.asset
+  artifactKey: Guid(ab9755931022cde45af440c9b824519a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6477_blinn11_0_51_0.asset using Guid(ab9755931022cde45af440c9b824519a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c53cc46c78b4f076ed58bf97f973d000') in 0.0116345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6476_blinn11_0_50_0.asset
+  artifactKey: Guid(6217f1fbe409f7347a776967d9f05387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6476_blinn11_0_50_0.asset using Guid(6217f1fbe409f7347a776967d9f05387) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40d6286430aa401a77fc0f3fa4915e5a') in 0.0110243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5329_blinn11_0_383_0.asset
+  artifactKey: Guid(9467928b3beab7c41b3d1e9c9600d2ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface5329_blinn11_0_383_0.asset using Guid(9467928b3beab7c41b3d1e9c9600d2ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a9677a41d9c83abd31ebea816c4a42c') in 0.0097808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6525_blinn11_0_99_0.asset
+  artifactKey: Guid(d508304be82f9fa40b8b1c3643a8c261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6525_blinn11_0_99_0.asset using Guid(d508304be82f9fa40b8b1c3643a8c261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4bf656dcdd8e243752b2328c7b0a98b') in 0.011218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6515_blinn11_0_89_0.asset
+  artifactKey: Guid(3a98df7ce08f2ca4d82089dad43c8e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6515_blinn11_0_89_0.asset using Guid(3a98df7ce08f2ca4d82089dad43c8e98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3ddf8ffeb8b6e9d668bac9748e88ba1') in 0.0107857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6549_blinn11_0_123_0.asset
+  artifactKey: Guid(7f001cbfbd203c642a4e1bd7975b2da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6549_blinn11_0_123_0.asset using Guid(7f001cbfbd203c642a4e1bd7975b2da7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6193a1caf7568ad4bd38cd3163781c8b') in 0.010225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6519_blinn11_0_93_0.asset
+  artifactKey: Guid(d2352c8c38968874789c0bb2104c2b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6519_blinn11_0_93_0.asset using Guid(d2352c8c38968874789c0bb2104c2b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb646405b99592c51757101f110a5fe6') in 0.009431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6527_blinn11_0_101_0.asset
+  artifactKey: Guid(7b064a14aecaa8c4e83e4f4c374d6885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6527_blinn11_0_101_0.asset using Guid(7b064a14aecaa8c4e83e4f4c374d6885) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f320541d705ac738161c254e6dc83fe') in 0.0103396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6540_blinn11_0_114_0.asset
+  artifactKey: Guid(c474ef19ce93d464ea6631fbde76f610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6540_blinn11_0_114_0.asset using Guid(c474ef19ce93d464ea6631fbde76f610) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a7a35ee1a05df5709042c9f5382a6d9') in 0.0244387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6509_blinn11_0_83_0.asset
+  artifactKey: Guid(0f8360e13a3f9a5419f47fb2d5a6631f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6509_blinn11_0_83_0.asset using Guid(0f8360e13a3f9a5419f47fb2d5a6631f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '392481e6699e1d1d10e0c61d32d8a785') in 0.0110499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6507_blinn11_0_81_0.asset
+  artifactKey: Guid(d515f33378f72274a8c0e3b96faccf93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6507_blinn11_0_81_0.asset using Guid(d515f33378f72274a8c0e3b96faccf93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae06e639cd850698e49040276da5710d') in 0.0100503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6529_blinn11_0_103_0.asset
+  artifactKey: Guid(47d807ef5417a094a8e217cc64c3b8dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6529_blinn11_0_103_0.asset using Guid(47d807ef5417a094a8e217cc64c3b8dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99a065b23ca4f21f9c8d00f53789a449') in 0.0116283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6551_blinn11_0_125_0.asset
+  artifactKey: Guid(ad723cba3b5aa944a967452adad2e0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6551_blinn11_0_125_0.asset using Guid(ad723cba3b5aa944a967452adad2e0a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08fa91aadd67fd7178e61d38d55f4042') in 0.0116859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6555_blinn11_0_129_0.asset
+  artifactKey: Guid(633851f260448bd4d978d2ef32f116e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6555_blinn11_0_129_0.asset using Guid(633851f260448bd4d978d2ef32f116e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f77574411445df2caedc3c7dba92ea4') in 0.0114677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6580_blinn11_0_154_0.asset
+  artifactKey: Guid(ed748d6736ecd884c98591e2b500d672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6580_blinn11_0_154_0.asset using Guid(ed748d6736ecd884c98591e2b500d672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c553884a20fa8ab8c093ae1271261ceb') in 0.0122152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.mat
+  artifactKey: Guid(8b7dd0809c7c6498789fa32a61eaa6cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.mat using Guid(8b7dd0809c7c6498789fa32a61eaa6cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f97ccd60874ddf355f8395c2e40d7466') in 0.0291357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6556_blinn11_0_130_0.asset
+  artifactKey: Guid(fbfff684af7573d49a4ad7a8f9ace336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6556_blinn11_0_130_0.asset using Guid(fbfff684af7573d49a4ad7a8f9ace336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2232fc782351456d356e2a10c8068ba4') in 0.0106084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6565_blinn11_0_139_0.asset
+  artifactKey: Guid(8710cb7414e3b8c488c813d72a2de896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6565_blinn11_0_139_0.asset using Guid(8710cb7414e3b8c488c813d72a2de896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abdacbf29fafa95a67213a085bde1d83') in 0.0119926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6583_blinn11_0_157_0.asset
+  artifactKey: Guid(e34b2d26d7fd37f40975506eee300af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6583_blinn11_0_157_0.asset using Guid(e34b2d26d7fd37f40975506eee300af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6a347e0f5c2655972e8442566f3febc') in 0.0101778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6577_blinn11_0_151_0.asset
+  artifactKey: Guid(a0ba3f0f110b05242b2301d1d3affd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6577_blinn11_0_151_0.asset using Guid(a0ba3f0f110b05242b2301d1d3affd84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1888ab2af051cda1464b557a6f13e10d') in 0.0115314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6550_blinn11_0_124_0.asset
+  artifactKey: Guid(fe850a35b36f9af4fa863881f93062a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6550_blinn11_0_124_0.asset using Guid(fe850a35b36f9af4fa863881f93062a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4b7412036befdfb9b43113744dd4aaa') in 0.0099686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6469_blinn11_0_43_0.asset
+  artifactKey: Guid(ba83c1b6f7abb024e8d2804a2e70fd7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6469_blinn11_0_43_0.asset using Guid(ba83c1b6f7abb024e8d2804a2e70fd7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '620067e75d6d31f0b53adf34d8485f72') in 0.0125434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6628_blinn11_0_202_0.asset
+  artifactKey: Guid(8453cd84ff1077a4298f3d2c54581f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6628_blinn11_0_202_0.asset using Guid(8453cd84ff1077a4298f3d2c54581f2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a0044cea83a04eb08cb023186011628') in 0.0121916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6605_blinn11_0_179_0.asset
+  artifactKey: Guid(887f8b7e4d936194a8b4c28cfe0f9797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6605_blinn11_0_179_0.asset using Guid(887f8b7e4d936194a8b4c28cfe0f9797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7cb73df00f53646dc056ba490584bed') in 0.0118222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6633_blinn11_0_207_0.asset
+  artifactKey: Guid(55fd3cdb0e2776e42923352ee8767227) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6633_blinn11_0_207_0.asset using Guid(55fd3cdb0e2776e42923352ee8767227) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c45d139e034f6e628e5668e2829aaf63') in 0.0102742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6613_blinn11_0_187_0.asset
+  artifactKey: Guid(d07674d6ec788d0459719c25ea3693e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6613_blinn11_0_187_0.asset using Guid(d07674d6ec788d0459719c25ea3693e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31d5618cad1c9cbf293f6b76000dceb2') in 0.0108472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6610_blinn11_0_184_0.asset
+  artifactKey: Guid(32cd0841cf157dd4aa8e5e6df9ad4a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6610_blinn11_0_184_0.asset using Guid(32cd0841cf157dd4aa8e5e6df9ad4a88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd84d85c562a90376a39de6d8f70d1df7') in 0.0112868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6606_blinn11_0_180_0.asset
+  artifactKey: Guid(30a20fcb8efa5844a9db2145443ef624) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6606_blinn11_0_180_0.asset using Guid(30a20fcb8efa5844a9db2145443ef624) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2bce82b0184b60909ca0c983f1ee034') in 0.0138543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6608_blinn11_0_182_0.asset
+  artifactKey: Guid(bee9f77a9ba397c4d80b055bf9e113c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6608_blinn11_0_182_0.asset using Guid(bee9f77a9ba397c4d80b055bf9e113c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a68934ba04d8d2beff15ad19cfdda8e6') in 0.0109275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6622_blinn11_0_196_0.asset
+  artifactKey: Guid(22ac92a0b0f400745b4698568ccfefa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6622_blinn11_0_196_0.asset using Guid(22ac92a0b0f400745b4698568ccfefa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23168ee0185f3e6614a874d1c73537a2') in 0.0103757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6616_blinn11_0_190_0.asset
+  artifactKey: Guid(f680d20f762be844ebbc2b14540a1203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6616_blinn11_0_190_0.asset using Guid(f680d20f762be844ebbc2b14540a1203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '649871016dca9f436df5f9be638b81be') in 0.011295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6572_blinn11_0_146_0.asset
+  artifactKey: Guid(3e14c062143267f4f9abd3045741a499) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6572_blinn11_0_146_0.asset using Guid(3e14c062143267f4f9abd3045741a499) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '494188adb4a90e474a4aeac42f3d00e7') in 0.0097765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6656_blinn11_0_230_0.asset
+  artifactKey: Guid(d0c36aeca134ffa49ae8782ddadd57cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6656_blinn11_0_230_0.asset using Guid(d0c36aeca134ffa49ae8782ddadd57cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '173b0ea158658d87bd6d29302c8f2d71') in 0.0104699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6678_blinn11_0_252_0.asset
+  artifactKey: Guid(74226debdd481424fbdd75284b09855e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6678_blinn11_0_252_0.asset using Guid(74226debdd481424fbdd75284b09855e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ef64cb3e3574cc5b9979789d29d923e') in 0.010792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6688_blinn11_0_262_0.asset
+  artifactKey: Guid(03395f3b013c417499d743296b76a731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6688_blinn11_0_262_0.asset using Guid(03395f3b013c417499d743296b76a731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '845e0f1876cce2560b926704a396646e') in 0.00985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6685_blinn11_0_259_0.asset
+  artifactKey: Guid(08a49696cd5571049bcf174a2f5392ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6685_blinn11_0_259_0.asset using Guid(08a49696cd5571049bcf174a2f5392ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b9f7b20f61926a83ed0113c36dc83f8') in 0.0105971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6673_blinn11_0_247_0.asset
+  artifactKey: Guid(99d66badb8847a147a2979de6335f6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6673_blinn11_0_247_0.asset using Guid(99d66badb8847a147a2979de6335f6b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a99179ae5555636d9278c25728429f8') in 0.0097408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6681_blinn11_0_255_0.asset
+  artifactKey: Guid(7de9424495a41a848a592cb94bf17208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6681_blinn11_0_255_0.asset using Guid(7de9424495a41a848a592cb94bf17208) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03dcc10c6f585c98b8eda74bb448b30c') in 0.0125744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6689_blinn11_0_263_0.asset
+  artifactKey: Guid(17f1ea53fd22bb1429600e108fb30990) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6689_blinn11_0_263_0.asset using Guid(17f1ea53fd22bb1429600e108fb30990) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26c46a7dec9268b4cbdbb7bb3607039a') in 0.0119741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6667_blinn11_0_241_0.asset
+  artifactKey: Guid(8848715851a9172489337f297bd2e4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6667_blinn11_0_241_0.asset using Guid(8848715851a9172489337f297bd2e4ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4708e8ad00f52ea26ac4d8b00c068a85') in 0.010752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6653_blinn11_0_227_0.asset
+  artifactKey: Guid(531a80069684af94fa1f940c4bda9155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6653_blinn11_0_227_0.asset using Guid(531a80069684af94fa1f940c4bda9155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bd2e74dc7f5d09aabb8e337518b8229') in 0.0106614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6693_blinn11_0_267_0.asset
+  artifactKey: Guid(ae85eb29e1b0d8e45ac21b7b01cb2e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6693_blinn11_0_267_0.asset using Guid(ae85eb29e1b0d8e45ac21b7b01cb2e52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2d54e9e8369fa4ee7c184bb47ed38ee') in 0.0103547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6710_blinn11_0_284_0.asset
+  artifactKey: Guid(f6faba6c937a68b4d97743ced69fbf6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6710_blinn11_0_284_0.asset using Guid(f6faba6c937a68b4d97743ced69fbf6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f99874b022e04fdcf50f0fdea3d8827') in 0.0110789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6731_blinn11_0_305_0.asset
+  artifactKey: Guid(16b2cb3c12ec3a84cb97c6e618a9c221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6731_blinn11_0_305_0.asset using Guid(16b2cb3c12ec3a84cb97c6e618a9c221) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8301bf65fcff5d547c83ad7d40d1fa45') in 0.0097855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6726_blinn11_0_300_0.asset
+  artifactKey: Guid(5eff8c5c2a9003949ae41614b657cfb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6726_blinn11_0_300_0.asset using Guid(5eff8c5c2a9003949ae41614b657cfb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '419691b8236b44916e9ee6a89d5c0b36') in 0.0118427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6715_blinn11_0_289_0.asset
+  artifactKey: Guid(92a11a441cbb591429abbd664eaf8420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6715_blinn11_0_289_0.asset using Guid(92a11a441cbb591429abbd664eaf8420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a77df10912925acdf037f3f10609968') in 0.0098483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6732_blinn11_0_306_0.asset
+  artifactKey: Guid(a76228766448d3349a641de446980d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6732_blinn11_0_306_0.asset using Guid(a76228766448d3349a641de446980d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61d281264c91ffa0d2db6ca77f30af24') in 0.0106232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6704_blinn11_0_278_0.asset
+  artifactKey: Guid(3d3c2dfffaaa82c45b6cb5abff18cc0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6704_blinn11_0_278_0.asset using Guid(3d3c2dfffaaa82c45b6cb5abff18cc0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f032c5a59785ec41c00e58010c77e37') in 0.0108061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6711_blinn11_0_285_0.asset
+  artifactKey: Guid(26ffa845b3f7fee48b555ddb0ef257a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6711_blinn11_0_285_0.asset using Guid(26ffa845b3f7fee48b555ddb0ef257a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68923267332ca6353f9bd0c6194f6c7b') in 0.0105559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6727_blinn11_0_301_0.asset
+  artifactKey: Guid(40daa770f1c77304998c634fe559be78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6727_blinn11_0_301_0.asset using Guid(40daa770f1c77304998c634fe559be78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0db0623edc26fe97dd9f5b21d7281124') in 0.0090995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6719_blinn11_0_293_0.asset
+  artifactKey: Guid(7596bbe33afb4a54db7b7d47a6867933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6719_blinn11_0_293_0.asset using Guid(7596bbe33afb4a54db7b7d47a6867933) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14aa5b83f01bc17a061589ca903898e8') in 0.0104975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6697_blinn11_0_271_0.asset
+  artifactKey: Guid(5161c47e9607e6748bcd271f00445904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6697_blinn11_0_271_0.asset using Guid(5161c47e9607e6748bcd271f00445904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a43ed21d712a75aba4d11af126f255b') in 0.0094227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface3360_blinn12_0_399_0.asset
+  artifactKey: Guid(bdc662b5d80b58d4aa5b40686e80a913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface3360_blinn12_0_399_0.asset using Guid(bdc662b5d80b58d4aa5b40686e80a913) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9cbb52eb8bf83b2047deb1ab4ea0ce65') in 0.0124988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6790_blinn11_0_364_0.asset
+  artifactKey: Guid(a2c4414ea2e931748b98e02fb5392ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6790_blinn11_0_364_0.asset using Guid(a2c4414ea2e931748b98e02fb5392ef1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c334d9b258b889ca257efa4046efe947') in 0.0103964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6774_blinn11_0_348_0.asset
+  artifactKey: Guid(9d0a0b677c6ce6640b3181c03de43f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6774_blinn11_0_348_0.asset using Guid(9d0a0b677c6ce6640b3181c03de43f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac7b83fbf89aa05ee9f033c19a8ef3c8') in 0.0098564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6783_blinn11_0_357_0.asset
+  artifactKey: Guid(49b16a839fd34254fa3a6c16f05ccfac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6783_blinn11_0_357_0.asset using Guid(49b16a839fd34254fa3a6c16f05ccfac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c8a5594735f58f6d0db160572f65f87') in 0.0109814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6752_blinn11_0_326_0.asset
+  artifactKey: Guid(25a39e6f18c8b124588c56a80edc6a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6752_blinn11_0_326_0.asset using Guid(25a39e6f18c8b124588c56a80edc6a6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac75383e5c57a6e291cff7b07798e3ca') in 0.010589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6791_blinn11_0_365_0.asset
+  artifactKey: Guid(35d865ebd60d4b24da92394faf2a8428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6791_blinn11_0_365_0.asset using Guid(35d865ebd60d4b24da92394faf2a8428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6bea6e27b1489b8beef93e3382a8205') in 0.0115153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6763_blinn11_0_337_0.asset
+  artifactKey: Guid(53f8e442e9dba034a88904fbd8b16751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6763_blinn11_0_337_0.asset using Guid(53f8e442e9dba034a88904fbd8b16751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b088f4a1b0942508e6535da87d9287b4') in 0.0127635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6792_blinn11_0_366_0.asset
+  artifactKey: Guid(bbb41b2b65ee0d347b1178936b0a49d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6792_blinn11_0_366_0.asset using Guid(bbb41b2b65ee0d347b1178936b0a49d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5a1eb3ed2bf0b8969b37e4dfa9184e9') in 0.0127178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6766_blinn11_0_340_0.asset
+  artifactKey: Guid(c96a3114aa84d0f47813a3a6a77e9a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6766_blinn11_0_340_0.asset using Guid(c96a3114aa84d0f47813a3a6a77e9a0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65c6243a274426cc4a4e9be178d75247') in 0.0122561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface785_blinn14_0_430_0.asset
+  artifactKey: Guid(df23e10986c72fc41a4b0831671ce9b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface785_blinn14_0_430_0.asset using Guid(df23e10986c72fc41a4b0831671ce9b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09ff1e25e468642b04e34aa7ddcc2432') in 0.0112504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn13_metallicRoughness_34.png
+  artifactKey: Guid(3ee0e148f42b42f4f84d33e06ba171cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn13_metallicRoughness_34.png using Guid(3ee0e148f42b42f4f84d33e06ba171cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc029dfac051fe378ca63ef7770ea086') in 0.0181146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6796_blinn11_0_370_0.asset
+  artifactKey: Guid(e08af5db6ebd519499eea4591f659b8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6796_blinn11_0_370_0.asset using Guid(e08af5db6ebd519499eea4591f659b8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4800c334a9a0df4462eb54df85a1d39e') in 0.0128455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6797_blinn11_0_371_0.asset
+  artifactKey: Guid(45cecb75331c5d4479ef90fb6615f3fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6797_blinn11_0_371_0.asset using Guid(45cecb75331c5d4479ef90fb6615f3fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f42ff7d94f30cce5636ddcf6bc1e806c') in 0.0131252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn12_normal_32.png
+  artifactKey: Guid(76994d16f2e406846b877b81d304a330) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn12_normal_32.png using Guid(76994d16f2e406846b877b81d304a330) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd46c8f277d5c6a6ba28964fbaeb5ea4') in 0.0165719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn15_baseColor_41.png
+  artifactKey: Guid(7536879595cae444b98b52995878094b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn15_baseColor_41.png using Guid(7536879595cae444b98b52995878094b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86660952a681052deda0ce5b71850928') in 0.014707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn14_emissive_39.png
+  artifactKey: Guid(d82beb723438cdf44934147a556f523b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn14_emissive_39.png using Guid(d82beb723438cdf44934147a556f523b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7df42e2aa24e1393d3faa169657dddc') in 0.0158674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn11_metallicRoughness_27_metal.png
+  artifactKey: Guid(28e7b33dea4b23644a0328b6e285b6a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn11_metallicRoughness_27_metal.png using Guid(28e7b33dea4b23644a0328b6e285b6a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '577fe4ca95ffbfc2d8814e088a4a63b5') in 0.0155527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6795_blinn11_0_369_0.asset
+  artifactKey: Guid(dface2b586764e641b33a5279f9bcead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6795_blinn11_0_369_0.asset using Guid(dface2b586764e641b33a5279f9bcead) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba0fde3081f40273c94fb27cefae7382') in 0.0318467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/phong1_baseColor_0.png
+  artifactKey: Guid(f82d2a90b8d0cef40abe00c62c97d851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/phong1_baseColor_0.png using Guid(f82d2a90b8d0cef40abe00c62c97d851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46577d733e693c4bc8cb4d4eec5745c5') in 0.017565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Imported/Desert/meshes/Object_3_3_0.asset
+  artifactKey: Guid(f39a757d29a5e4b45a8719f41d5f0a87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Desert/meshes/Object_3_3_0.asset using Guid(f39a757d29a5e4b45a8719f41d5f0a87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21c75c1770541172fe644e3dd908db0c') in 0.0726535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn7_metallicRoughness_15_occlusion.png
+  artifactKey: Guid(499a692b89c6c6444afdc529e7189d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn7_metallicRoughness_15_occlusion.png using Guid(499a692b89c6c6444afdc529e7189d80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae1558e81d3e05ca05edd8b3b0ed3eae') in 0.016054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn4_metallicRoughness_6_occlusion.png
+  artifactKey: Guid(b1ab33ae2bce8984b9f9156982c58329) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn4_metallicRoughness_6_occlusion.png using Guid(b1ab33ae2bce8984b9f9156982c58329) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82eca92327171bcd53d16d1c38de3092') in 0.0188161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn9_metallicRoughness_21_metal.png
+  artifactKey: Guid(5b5306e9f27e41d4da2978d4f6c7730b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn9_metallicRoughness_21_metal.png using Guid(5b5306e9f27e41d4da2978d4f6c7730b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b196479ae260f0b35f9cb348e92e652') in 0.0164643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn6_normal_13.png
+  artifactKey: Guid(9bea5f028cb271b46ab14f9a42feda60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn6_normal_13.png using Guid(9bea5f028cb271b46ab14f9a42feda60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be424c4a506cbe110170a5ca84e571b5') in 0.0193322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3_occlusion.png
+  artifactKey: Guid(9fd823267bd2881428181aa35e774dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn3_metallicRoughness_3_occlusion.png using Guid(9fd823267bd2881428181aa35e774dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94add2b3c93810aeed2e32589b82ca79') in 0.0186031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn9_normal_22.png
+  artifactKey: Guid(ea9b97bd6a03d1a439ca0d3b962a4817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn9_normal_22.png using Guid(ea9b97bd6a03d1a439ca0d3b962a4817) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85bab9ff499eeb93194e2fe02dfb8db6') in 0.0200875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Imported/Rock/textures/_0.png
+  artifactKey: Guid(901db160baeed8642a171f53e5527a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Rock/textures/_0.png using Guid(901db160baeed8642a171f53e5527a3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13ce3aefa8727b732f0c80acdcd783bd') in 0.0183654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Imported/Rock/textures/_1.png
+  artifactKey: Guid(cd757d7ae5398d748a7dbb06014b671b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Rock/textures/_1.png using Guid(cd757d7ae5398d748a7dbb06014b671b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6a225fa716e5aa586f8f795aaba1da4') in 0.0155302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/textures/blinn4_metallicRoughness_6_metal.png
+  artifactKey: Guid(ee76c31811713fe408cf31e6050a70c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/textures/blinn4_metallicRoughness_6_metal.png using Guid(ee76c31811713fe408cf31e6050a70c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7858c7dc16f73b6a543510a915a3c6e6') in 0.018603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6784_blinn11_0_358_0.asset
+  artifactKey: Guid(cdff785824f340848911a5f96368987d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6784_blinn11_0_358_0.asset using Guid(cdff785824f340848911a5f96368987d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1e104c399669ff461b3c20938ed6fc4') in 0.0117892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6748_blinn11_0_322_0.asset
+  artifactKey: Guid(060afbc25426d7a489935bda740081b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6748_blinn11_0_322_0.asset using Guid(060afbc25426d7a489935bda740081b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7284143e81297ca9289ae5dcc3648bf1') in 0.0120981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/materials/blinn8_6.mat
+  artifactKey: Guid(817f559984f1ea4468cc58c968003ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/materials/blinn8_6.mat using Guid(817f559984f1ea4468cc58c968003ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b83d39c446f400c335b7c6324efb8d80') in 0.0226263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '824c5179a67c02210c1887b25ebfdbed') in 0.0113559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c53e9659fdb262f6d9d10e545451de8e') in 0.0120246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6524_blinn11_0_98_0.asset
+  artifactKey: Guid(f054e6d2bd7207c488bc0cef42538b00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Imported/Bulldozer/meshes/polySurface6524_blinn11_0_98_0.asset using Guid(f054e6d2bd7207c488bc0cef42538b00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e8bceb6df6368d25ffd301262fd3bd9') in 0.0142142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Texture/Resume.png
+  artifactKey: Guid(202891c7ac081864aa3dec39d821cd51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Texture/Resume.png using Guid(202891c7ac081864aa3dec39d821cd51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9323ad562c4577a3cd0f23c0d6d719e') in 0.0209055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png
+  artifactKey: Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_1_Back-Z.png using Guid(4efb8fd75703d43cab6f01b240a7c945) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f1dd28f722975bff2ffe4bf1852aad5') in 0.0192593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f8924068794ca47621f8ab764a0b1f6') in 0.0096534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8c47821c535ecd4dee493c05a32e270') in 0.0119736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
