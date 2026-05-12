@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
 
 namespace ChaosTower.Managers
 {
@@ -49,6 +50,15 @@ namespace ChaosTower.Managers
         public TextMeshProUGUI FinalScoreText;
         public TextMeshProUGUI BestScoreText;
 
+        [Header("Sound Filter Transition")]
+        public bool UseGameplaySoundFilter = true;
+        public float FilterDuration = 1.25f;
+        public float MenuCutoffFrequency = 900f;
+        public float GameplayCutoffFrequency = 22000f;
+
+        private AudioLowPassFilter lowPassFilter;
+        private Coroutine soundFilterRoutine;
+
         private void Awake()
         {
             if (_instance == null)
@@ -58,7 +68,10 @@ namespace ChaosTower.Managers
             else if (_instance != this)
             {
                 Destroy(gameObject);
+                return;
             }
+
+            SetupSoundFilter();
 
             if (FeedbackText != null) FeedbackText.gameObject.SetActive(false);
             if (LoadingPanel != null) LoadingPanel.gameObject.SetActive(false);
@@ -74,7 +87,7 @@ namespace ChaosTower.Managers
                 GameManager.Instance.OnGameStart.AddListener(ShowPlayingUI);
                 GameManager.Instance.OnGameOver.AddListener(ShowGameOverUI);
             }
-            
+
             if (ScoreManager.Instance != null)
             {
                 ScoreManager.Instance.OnScoreChanged += UpdateScoreText;
@@ -93,38 +106,108 @@ namespace ChaosTower.Managers
                 VolumeSlider.value = AudioListener.volume;
                 VolumeSlider.onValueChanged.AddListener(OnVolumeChanged);
             }
+
             if (BloomToggle != null)
             {
                 BloomToggle.onValueChanged.AddListener(OnBloomToggled);
             }
 
-            // Wire Sub-Menu Buttons (Using explicit slots or finding by name as fallback)
+            // Wire Sub-Menu Buttons
             WireButton(ResumeButton, ResumeGame, "ResumeButton");
-            WireButton(CloseButton, ResumeGame, "CloseButton"); // Assuming Close on Pause = Resume
+            WireButton(CloseButton, ResumeGame, "CloseButton");
             WireButton(MenuButton, OpenMenu, "MenuButton");
             WireButton(CloseSettingsButton, () => ShowSettings(false), "CloseSettingsButton");
 
             ShowMenuUI();
         }
 
+        private void SetupSoundFilter()
+        {
+            AudioListener listener = FindAnyObjectByType<AudioListener>();
+
+            if (listener == null)
+            {
+                Debug.LogWarning("UIManager: No AudioListener found. Sound filter transition will not work.");
+                return;
+            }
+
+            lowPassFilter = listener.GetComponent<AudioLowPassFilter>();
+
+            if (lowPassFilter == null)
+            {
+                lowPassFilter = listener.gameObject.AddComponent<AudioLowPassFilter>();
+            }
+
+            lowPassFilter.cutoffFrequency = GameplayCutoffFrequency;
+            lowPassFilter.enabled = false;
+        }
+
+        private void PlayMenuToGameplaySoundFilter()
+        {
+            if (!UseGameplaySoundFilter || lowPassFilter == null) return;
+
+            if (soundFilterRoutine != null)
+            {
+                StopCoroutine(soundFilterRoutine);
+            }
+
+            soundFilterRoutine = StartCoroutine(MenuToGameplaySoundFilterRoutine());
+        }
+
+        private IEnumerator MenuToGameplaySoundFilterRoutine()
+        {
+            lowPassFilter.enabled = true;
+            lowPassFilter.cutoffFrequency = MenuCutoffFrequency;
+
+            float timer = 0f;
+
+            while (timer < FilterDuration)
+            {
+                timer += Time.unscaledDeltaTime;
+
+                float t = timer / FilterDuration;
+                t = Mathf.SmoothStep(0f, 1f, t);
+
+                lowPassFilter.cutoffFrequency = Mathf.Lerp(
+                    MenuCutoffFrequency,
+                    GameplayCutoffFrequency,
+                    t
+                );
+
+                yield return null;
+            }
+
+            lowPassFilter.cutoffFrequency = GameplayCutoffFrequency;
+            lowPassFilter.enabled = false;
+            soundFilterRoutine = null;
+        }
+
         private void WireButton(GameObject obj, UnityEngine.Events.UnityAction action, string fallbackName)
         {
             Button btn = null;
-            if (obj != null) btn = obj.GetComponent<Button>();
-            
+
+            if (obj != null)
+            {
+                btn = obj.GetComponent<Button>();
+            }
+
             if (btn == null)
             {
-                // Fallback search by name
                 var allButtons = GetComponentsInChildren<Button>(true);
+
                 foreach (var b in allButtons)
                 {
-                    if (b.name == fallbackName) { btn = b; break; }
+                    if (b.name == fallbackName)
+                    {
+                        btn = b;
+                        break;
+                    }
                 }
             }
 
             if (btn != null)
             {
-                btn.onClick.RemoveAllListeners(); // Avoid double wiring
+                btn.onClick.RemoveAllListeners();
                 btn.onClick.AddListener(action);
             }
         }
@@ -139,6 +222,12 @@ namespace ChaosTower.Managers
             if (ScoreText != null) ScoreText.gameObject.SetActive(false);
             if (FeedbackText != null) FeedbackText.gameObject.SetActive(false);
             if (PauseButton != null) PauseButton.gameObject.SetActive(false);
+
+            if (lowPassFilter != null)
+            {
+                lowPassFilter.cutoffFrequency = GameplayCutoffFrequency;
+                lowPassFilter.enabled = false;
+            }
         }
 
         public void ShowSettings(bool show)
@@ -154,6 +243,7 @@ namespace ChaosTower.Managers
         public void ShowLoading(bool show)
         {
             if (LoadingPanel != null) LoadingPanel.SetActive(show);
+
             if (show)
             {
                 if (MenuPanel != null) MenuPanel.SetActive(false);
@@ -167,14 +257,26 @@ namespace ChaosTower.Managers
             if (GameOverPanel != null) GameOverPanel.SetActive(false);
             if (ScoreText != null) ScoreText.gameObject.SetActive(true);
             if (PauseButton != null) PauseButton.gameObject.SetActive(true);
+
             UpdateScoreText(0);
+
+            // Sound filter when switching from menu to gameplay
+            PlayMenuToGameplaySoundFilter();
         }
 
         public void ShowGameOverUI()
         {
             if (GameOverPanel != null) GameOverPanel.SetActive(true);
-            if (FinalScoreText != null) FinalScoreText.text = "Score: " + ScoreManager.Instance.CurrentScore;
-            if (BestScoreText != null) BestScoreText.text = "Best: " + ScoreManager.Instance.BestScore;
+
+            if (FinalScoreText != null)
+            {
+                FinalScoreText.text = "Score: " + ScoreManager.Instance.CurrentScore;
+            }
+
+            if (BestScoreText != null)
+            {
+                BestScoreText.text = "Best: " + ScoreManager.Instance.BestScore;
+            }
         }
 
         public void ShowFeedback(string message, Color color)
@@ -184,32 +286,43 @@ namespace ChaosTower.Managers
             FeedbackText.text = message;
             FeedbackText.color = color;
             FeedbackText.gameObject.SetActive(true);
-            
+
             CancelInvoke(nameof(HideFeedback));
             Invoke(nameof(HideFeedback), 1.5f);
         }
 
         private void HideFeedback()
         {
-            if (FeedbackText != null) FeedbackText.gameObject.SetActive(false);
+            if (FeedbackText != null)
+            {
+                FeedbackText.gameObject.SetActive(false);
+            }
         }
 
         private void UpdateScoreText(int score)
         {
-            if (ScoreText != null) ScoreText.text = score.ToString();
+            if (ScoreText != null)
+            {
+                ScoreText.text = score.ToString();
+            }
         }
 
         // --- PUBLIC EVENT WRAPPERS ---
 
         public void OnVolumeChanged(float value)
         {
-            if (AudioManager.Instance != null) AudioManager.Instance.SetMasterVolume(value);
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.SetMasterVolume(value);
+            }
         }
 
         public void OnBloomToggled(bool value)
         {
-            if (ChaosTower.Gameplay.EffectsManager.Instance != null) 
+            if (ChaosTower.Gameplay.EffectsManager.Instance != null)
+            {
                 ChaosTower.Gameplay.EffectsManager.Instance.SetBloomActive(value);
+            }
         }
 
         public void StartGame() => GameManager.Instance.StartGame();

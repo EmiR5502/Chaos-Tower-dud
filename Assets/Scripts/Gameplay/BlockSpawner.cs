@@ -17,6 +17,12 @@ namespace ChaosTower.Gameplay
 
         [Header("Chaos Settings")]
         public float ChaosAmount = 0.5f;
+        public float ChaosForce = 1.5f;
+        public float ChaosSpeed = 2f;
+
+        [Header("Rope Settings")]
+        public int RopeSegments = 8;
+        public float RopeRandomMovement = 0.35f;
 
         [Header("Visuals")]
         public LineRenderer CraneLine;
@@ -25,6 +31,9 @@ namespace ChaosTower.Gameplay
         private GameObject currentBlock;
         private bool isMoving = false;
         private float swingTimer = 0f;
+
+        private float ropeNoiseSeedX;
+        private float ropeNoiseSeedZ;
 
         private void Start()
         {
@@ -35,11 +44,20 @@ namespace ChaosTower.Gameplay
 
             if (CraneLine == null) CraneLine = GetComponent<LineRenderer>();
             if (CraneAnchor == null) CraneAnchor = transform;
+
+            ropeNoiseSeedX = Random.Range(0f, 1000f);
+            ropeNoiseSeedZ = Random.Range(0f, 1000f);
+
+            if (CraneLine != null)
+            {
+                CraneLine.positionCount = RopeSegments;
+            }
         }
 
         private void HandleTap()
         {
             Debug.Log($"BlockSpawner: HandleTap called. State: {GameManager.Instance.CurrentState}, isMoving: {isMoving}, currentBlock: {currentBlock != null}");
+
             if (GameManager.Instance.CurrentState == GameState.Playing && isMoving && currentBlock != null)
             {
                 DropBlock();
@@ -59,20 +77,24 @@ namespace ChaosTower.Gameplay
             CancelInvoke();
 
             if (currentBlock != null)
+            {
                 Destroy(currentBlock);
+            }
 
             if (CraneLine != null)
+            {
                 CraneLine.enabled = false;
+            }
         }
 
         private void SpawnNewBlock()
         {
             if (GameManager.Instance.CurrentState != GameState.Playing) return;
 
-            // Robust singleton check
             if (TowerManager.Instance == null)
             {
                 var mgr = Object.FindAnyObjectByType<TowerManager>();
+
                 if (mgr == null)
                 {
                     Debug.LogError("TowerManager instance not found in scene!");
@@ -86,33 +108,43 @@ namespace ChaosTower.Gameplay
             GameObject randomPrefab = BlockPrefabs[Random.Range(0, BlockPrefabs.Count)];
             currentBlock = Instantiate(randomPrefab, spawnPos, Quaternion.identity);
 
-            // Disable physics before drop
             Rigidbody rb = currentBlock.GetComponent<Rigidbody>();
             if (rb != null)
+            {
                 rb.isKinematic = true;
+            }
 
             currentBlock.transform.SetParent(transform);
 
             swingTimer = 0f;
 
+            ropeNoiseSeedX = Random.Range(0f, 1000f);
+            ropeNoiseSeedZ = Random.Range(0f, 1000f);
+
             if (CraneLine != null)
+            {
                 CraneLine.enabled = true;
+                CraneLine.positionCount = Mathf.Max(2, RopeSegments);
+            }
         }
 
         private void Update()
         {
             if (GameManager.Instance.CurrentState != GameState.Playing) return;
 
-            // Follow tower height smoothly
             float targetY = TowerManager.Instance.GetTowerHeight() + SpawnHeightOffset;
             float currentY = transform.position.y;
-            transform.position = new Vector3(0, Mathf.Lerp(currentY, targetY, Time.deltaTime * 2f), 0);
+
+            transform.position = new Vector3(
+                0,
+                Mathf.Lerp(currentY, targetY, Time.deltaTime * 2f),
+                0
+            );
 
             if (isMoving && currentBlock != null)
             {
                 UpdateSwing();
 
-                // 📈 Difficulty scaling (gradually increase speed)
                 SwingSpeed += Time.deltaTime * SpeedIncreaseRate;
             }
         }
@@ -122,29 +154,75 @@ namespace ChaosTower.Gameplay
             swingTimer += Time.deltaTime * SwingSpeed;
 
             if (swingTimer > 1000f)
+            {
                 swingTimer = 0f;
+            }
 
-            // X-axis swing
             float baseX = Mathf.Sin(swingTimer) * SwingAmplitude;
-            
-            // Z-axis swing (using a different frequency for organic movement)
             float baseZ = Mathf.Cos(swingTimer * 0.6f) * (SwingAmplitude * 0.5f);
 
-            // 🌪️ Smooth Chaos using Perlin Noise on both axes
-            float noiseX = (Mathf.PerlinNoise(Time.time, 0f) * 2f - 1f) * ChaosAmount;
-            float noiseZ = (Mathf.PerlinNoise(0f, Time.time) * 2f - 1f) * ChaosAmount;
+            // Random chaos movement for the block
+            float chaosTime = Time.time * ChaosSpeed;
+
+            float chaosX = (Mathf.PerlinNoise(chaosTime, ropeNoiseSeedX) * 2f - 1f) * ChaosAmount * ChaosForce;
+            float chaosZ = (Mathf.PerlinNoise(ropeNoiseSeedZ, chaosTime) * 2f - 1f) * ChaosAmount * ChaosForce;
 
             Vector3 pos = currentBlock.transform.position;
-            pos.x = baseX + noiseX;
-            pos.z = baseZ + noiseZ;
+            pos.x = baseX + chaosX;
+            pos.z = baseZ + chaosZ;
             currentBlock.transform.position = pos;
 
-            if (CraneLine != null)
+            UpdateRopeLine();
+        }
+
+        private void UpdateRopeLine()
+        {
+            if (CraneLine == null || currentBlock == null) return;
+
+            Vector3 anchorPos;
+
+            if (CraneAnchor != null)
             {
-                // Anchor is 10 units above the spawner for a vertical "cable" look
-                Vector3 anchorPos = transform.position + Vector3.up * 10f;
-                CraneLine.SetPosition(0, anchorPos);
-                CraneLine.SetPosition(1, currentBlock.transform.position);
+                anchorPos = CraneAnchor.position + Vector3.up * 10f;
+            }
+            else
+            {
+                anchorPos = transform.position + Vector3.up * 10f;
+            }
+
+            Vector3 blockPos = currentBlock.transform.position;
+
+            int segmentCount = Mathf.Max(2, RopeSegments);
+            CraneLine.positionCount = segmentCount;
+
+            for (int i = 0; i < segmentCount; i++)
+            {
+                float t = i / (float)(segmentCount - 1);
+
+                Vector3 point = Vector3.Lerp(anchorPos, blockPos, t);
+
+                // Do not move the first and last point too much.
+                // This keeps the rope attached to the crane and block.
+                float middleInfluence = Mathf.Sin(t * Mathf.PI);
+
+                float noiseTime = Time.time * ChaosSpeed;
+
+                float randomX = Mathf.PerlinNoise(
+                    ropeNoiseSeedX + i * 0.25f,
+                    noiseTime
+                ) * 2f - 1f;
+
+                float randomZ = Mathf.PerlinNoise(
+                    ropeNoiseSeedZ + i * 0.25f,
+                    noiseTime
+                ) * 2f - 1f;
+
+                Vector3 randomOffset = new Vector3(randomX, 0f, randomZ);
+                randomOffset *= RopeRandomMovement * ChaosAmount * middleInfluence;
+
+                point += randomOffset;
+
+                CraneLine.SetPosition(i, point);
             }
         }
 
@@ -153,12 +231,12 @@ namespace ChaosTower.Gameplay
             if (currentBlock == null) return;
 
             Block block = currentBlock.GetComponent<Block>();
+
             if (block != null)
             {
                 block.Drop();
             }
 
-            // 🔊 Sound hook
             if (AudioManager.Instance != null)
             {
                 AudioManager.Instance.PlayDrop();
@@ -168,7 +246,9 @@ namespace ChaosTower.Gameplay
             currentBlock = null;
 
             if (CraneLine != null)
+            {
                 CraneLine.enabled = false;
+            }
 
             Invoke(nameof(SpawnNewBlock), 1.5f);
         }
